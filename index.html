@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet" />
+  <title>Basketball scoreboard</title>
+</head>
+
+<body>
+  <div class="h1">
+    <h1>Basketball Score Board</h1>
+  </div>
+
+  <div class="container0">
+    <div class="quarters">
+      <h4>Quarter :</h4>
+      <div class="quarter">
+        <h3 id="quarterNumplc">1</h3>
+        <button id="quarter-btn" onclick="addQuarter()">+</button>
+        <button id="quarter-btn" onclick="substractQuarter()">-</button>
+      </div>
+    </div>
+    <div>
+      <h4>Timer:</h4>
+      <div class="timerr">
+        <h3 id="timer">15:00</h3>
+      </div class="buttons">
+      <button class="btn0" onclick="startTimer()">Start</button>
+      <button class="btn0" onclick="stopTimer()">Pause</button>
+      <button class="btn0" onclick="resetTimer()">Reset</button>
+    </div>
+  </div>
+  <div class="container1">
+    <div class="home">
+      <h2>Home</h2>
+      <div class="score">
+        <div class="number">
+          <h3 id="number1"></h3>
+        </div>
+
+        <div class="buttons">
+          <button class="btn" onclick="incrementHomeScoreBy1()">+1</button>
+          <button class="btn" onclick="incrementHomeScoreBy2()">+2</button>
+          <button class="btn" onclick="incrementHomeScoreBy3()">+3</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="guest">
+      <h2>Guest</h2>
+      <div class="score">
+        <div class="number">
+          <h3 id="number2"></h3>
+        </div>
+
+        <div class="buttons">
+          <button class="btn" onclick="incrementGuestScoreBy1()">+1</button>
+          <button class="btn" onclick="incrementGuestScoreBy2()">+2</button>
+          <button class="btn" onclick="incrementGuestScoreBy3()">+3</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="reset">
+    <button class="reset-btn" onclick="resetScores() , resetTimer(), resetQuarter()">Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

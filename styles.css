@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, sans-serif;
+    background: #1B244A;
+}
+
+.container0{
+    max-width: 600px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    padding: 50px;
+    background: #1B244A;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#timer{
+    color: #ebff78;
+    font-family: Cursed Timer ULiL;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h4{
+    color: #ebff78;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    max-width: 800px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    padding: 50px;
+    background: #1B244A;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px; 
+}
+
+h1{
+    color: #fef573;
+    text-align: center;
+    margin-top: 40px;
+}
+.h1{
+    background-color: #9AABD8;
+}
+h2{
+    color: #ebff78;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.score{
+    background-color: #080001;
+    border-radius: 5px;
+    height: 120px;
+    width: 155px;
+}
+.number{
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    color: #4ff9df;
+    height: 120px;
+}
+.buttons{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+.btn, #quarter-btn{
+    height: 40px;
+    width: 40px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    border-radius: 5px;
+    border: solid;
+    font-family: Cursed Timer ULiL;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#quarter-btn{
+    margin-left: 20px;
+}
+.btn0{
+    height: 40px;
+    width: 55px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    border-radius: 5px;
+    border: solid;
+    font-family: Cursed Timer ULiL;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover , #quarter-btn:hover{
+    background-color: #080001;
+    color: #4ff9df;
+    cursor: pointer;
+    border-color: #4ff9df;
+}
+.btn0:hover{
+    background-color: #080001;
+    color: #4ff9df;
+    cursor: pointer;
+    border-color: #4ff9df;
+}
+.btn:active, #quarter-btn:active{
+    transform: translateY(2px);
+}
+.btn0:active{
+    transform: translateY(2px);
+}
+#quarterNumplc{
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    color: #ebff78;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.reset{
+    max-width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 50px;
+    background: #1B244A;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px; 
+}
+.reset-btn {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    width: 300px;
+    background-color: #1B244A;
+    color: #ebff78;
+    border-color: #c6d89a;
+    border: solid;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.reset-btn:hover{
+    background-color: #c6d89a;
+    color: #1B244A;
+    border: #ebff78;
+    cursor: pointer;
+}
+.reset-btn:active{
+    transform: translateY(2px);
+}
+
